@@ -241,7 +241,7 @@ void MainWindow::calcResult() {
             lastNumber = qSqrt(displayLabel.toDouble());
         }
     }
-    // Module operator
+    // Modulo operator
     else if(lastOperator == 'M') {
         lastNumber = fmod(lastNumber, displayLabel.toDouble());
     }
